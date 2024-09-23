@@ -1,6 +1,3 @@
-package niki;
-import java.util.*;
-
 // class otter{
 //     public void caller(){
 //         for(int j = 0; j<=10; j++){
@@ -173,24 +170,142 @@ import java.util.*;
 // }
 
 
-class cutter{
-    public void gut(){
-int [] number ={1,2,3,4,5,6,7,8};
-for(int j =0; j<= number.length; j++){
+// class cutter{
+//     public void gut(){
+// int [] number ={1,2,3,4,5,6,7,8};
+// for(int j =0; j<= number.length; j++){
 
-System.out.println(number[j]);
+// System.out.println(number[j]);
 
-}
+// }
+//     }
+// }
+
+
+// class shooter{
+//     public void gut(){
+//         Scanner sc = new Scanner(System.in);
+//         String surray = sc.nextLine();
+//         for(int st = 0; st<= surray.length(); st++){
+// System.out.println(surray.charAt(st));
+//         }
+
+//     }
+// }
+// class cuto{
+// public void tutu(){
+//     String bun = " gutter";
+
+//     for(int q =0; q<= bun.length(); q++){
+//         System.out.println(bun.charAt(q));
+//     }
+// }}
+
+
+// class tututu{
+//     public void sut(){
+//         Scanner sc = new Scanner(System.in);
+//         String obj = sc.nextLine();
+//         for(int g=0; g<= obj.length(); g++){
+// System.out.println(obj.charAt(g));
+//         }
+//     }
+// }
+
+// class vivo{
+// public void vivo1(){
+//     int x = 5;
+//     x ^= 3;
+//     System.out.println(x);
+// }
+// }
+// class odd{
+//     public void bob(){
+//         int n =10;
+
+//         for(int j =0; j<n; j++){
+//             int kl = 2 * j +1;
+            
+//             System.out.println(kl);
+
+//         }
+//     }
+// }
+
+// class mit{
+// public void rute(){
+//     Scanner sc = new Scanner(System.in);
+//     int j = sc.nextInt();
+//     for(int g=0; g<j; g++){
+        
+//         System.out.println(2 * g +1);
+//         //the loop starts from 1 and it is g and it multiply by 2 and the outcome is 2
+//         //so 2+1 is 3. so our odd number starts from 3 and it will continue with 2 * 2
+//         // which is for 4 so it will add on + 1 which 5 and after this go with 
+//         //3*2 = 6 and with the addon of 1 is 7 this how odd works
+//         //
+//     }
+// }
+// }
+// class wer{
+//     public void mer(){
+
+//         Scanner sc = new Scanner(System.in);
+//     int j = sc.nextInt();
+        
+//         for(int k =0; k<j; k++){
+//             System.out.println(2 * k);
+//         }
+//     }
+
+
+// }
+
+// class decratative{
+//  public void dec (){
+//     for(int h=10; h>=0; h--){
+//         System.out.println(h);
+//     }
+//  }
+// }
+
+
+
+// class slut{
+//     public void mlut(){
+//         for(int j=10; j>=0; j--){
+//             System.out.println(j);
+//         }
+//         }
+//     }
+
+
+    class odd1{
+        public void  od(){
+            for(int j=0; j<=10; j++){
+                System.out.println(2 * j +1);
+            }
+
+        }
     }
-}
+    class mit{
+        public void bitn(){
+            Scanner sc = new Scanner(System.in);
+            int rub = sc.nextInt();
+            for(int g =0; g<=rub; g++ ){
+                for(int r =0; r<=g; r++){
+                    System.out.print("FU");
+                }
+                System.out.println( );
+
+            }
+        }
+    }
 public class loops {
     public static void main(String[] args) {
 
-cutter obj = new cutter();
-obj.gut();
-
-
-
+mit obj = new mit();
+obj.bitn();
     }
     
 }
